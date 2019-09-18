@@ -3,8 +3,7 @@ def roll_call_dwarves(array=[])
 end
 
 def summon_captain_planet(array = [])
-  newArray = array.capitalize
-  exclamation = newArray.each{|x| puts "#{x}!"}
+  exclamation = array.each{|x| puts "#{x}!"}
   exclamation
    #newArray.each{planeteer_calls.upcase}
 end
